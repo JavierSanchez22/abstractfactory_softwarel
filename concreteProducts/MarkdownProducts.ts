@@ -1,4 +1,4 @@
-import * as AP from "../Interfaces/AbstractProducts"; 
+import * as AP from "../interfaces/AbstractProducts"; 
 
 
 export class MarkDownHeading1 implements AP.Heading1 {

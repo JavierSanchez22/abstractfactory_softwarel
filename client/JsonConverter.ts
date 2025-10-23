@@ -1,5 +1,5 @@
-import { ConverterFactory } from "../Interfaces/ConverterFactory";
-import * as AP from "../Interfaces/AbstractProducts";
+import { ConverterFactory } from "../interfaces/ConverterFactory";
+import * as AP from "../interfaces/AbstractProducts";
 import { JsonData, JsonContent } from "../types/JsonData";
 
 export class JsonConverter {
