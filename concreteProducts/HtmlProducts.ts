@@ -30,8 +30,9 @@ export class HTMLQuote implements AP.Quote {
   }
 }
 
+
 export class HTMLImage implements AP.Image {
   public convert(url: string): string {
-    return '<img src="${url}" />\n\n';
+    return '<img src="${url}" alt="image" />\n\n';
   }
 }
