@@ -17,3 +17,16 @@ export class HTMLHeading3 implements AP.Heading3 {
     return '<h3>${text}</h3>\n';
   }
 }
+
+
+export class HTMLParagraph implements AP.Paragraph {
+  public convert(text: string): string {
+    return '<p>${text}</p>\n\n';
+  }
+}
+
+export class HTMLQuote implements AP.Quote {
+  public convert(text: string): string {
+    return '<blockquote>${text}</blockquote>\n\n';
+  }
+}
