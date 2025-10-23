@@ -1,0 +1,12 @@
+{
+  "name": "abstractfactory_softwarel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Proyecto de convertidor con Abstract Factory",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
