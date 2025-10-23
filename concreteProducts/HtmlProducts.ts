@@ -18,7 +18,6 @@ export class HTMLHeading3 implements AP.Heading3 {
   }
 }
 
-
 export class HTMLParagraph implements AP.Paragraph {
   public convert(text: string): string {
     return '<p>${text}</p>\n\n';
@@ -28,5 +27,11 @@ export class HTMLParagraph implements AP.Paragraph {
 export class HTMLQuote implements AP.Quote {
   public convert(text: string): string {
     return '<blockquote>${text}</blockquote>\n\n';
+  }
+}
+
+export class HTMLImage implements AP.Image {
+  public convert(url: string): string {
+    return '<img src="${url}" />\n\n';
   }
 }
