@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Abstract Factory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conversor de JSON</h1>
+      <p>
+        Convertir archivo .json a .md (MarkDown) o .html (HTML)
+      </p>
+
+      <div class="controls">
+        <input type="file" id="jsonFileInput" accept=".json" />
+        <button id="convertButton">Convertir</button>
+      </div>
+
+      <h3>Resultado:</h3>
+      <pre id="outputArea">Sube un archivo y presiona "Convertir"...</pre>
+
+      <button id="downloadButton" class="hidden">Descargar Archivo</button>
+    </div>
+
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>
