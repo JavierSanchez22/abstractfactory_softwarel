@@ -30,3 +30,9 @@ export class MarkDownQuote implements AP.Quote {
     return `> ${text}\n\n`;
   }
 }
+
+export class MarkDownImage implements AP.Image {
+  public convert(url: string): string {
+    return `![image](${url})\n\n`;
+  }
+}
