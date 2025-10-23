@@ -1,3 +1,4 @@
+// Muestra del diagrama
 import { JsonConverter } from "./client/JsonConverter";
 import { ConverterFactory } from "./interfaces/ConverterFactory";
 import { MarkDownFactory } from "./concreteFactories/MarkDownFactory";
